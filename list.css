@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Silkscreen|Kelly Slab:300,400,500,600,700,800,900&effect=neon&display=swap');
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins';
+    background: #121212;  
+    background: linear-gradient(-125deg, #1d2843, #121212);  
+    width: 100%;
+    height: 100vh;
+    
+}
+.wrapper{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+header h3{
+    color: #fff;
+    font-size: 2.5em;
+    padding-top: 1em;
+    
+}
+
+nav a{
+    color: blue;
+    background-color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.tabellist{
+    border: #fff solid 2px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.nm, .j{
+    padding: 0 12em;
+}
+
+.npm{
+    padding: 0 5em;
+}
+
+.dt{
+    padding: 0 3em;
+}
+
+.ketr{
+    padding: 0 2em;
+}

@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Silkscreen|Kelly Slab:300,400,500,600,700,800,900&effect=neon&display=swap');
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.wrapper{
+    width: 100%;
+    height: 99.9vh;
+    margin: auto;
+    position: relative;
+    justify-items: center;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    position: relative;
+    width: 40%;
+    min-height: 80%;
+    background: linear-gradient(134deg, #4d4d4d7d, rgba(255, 100, 100, 0.503));
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header img{
+    width: 20%;
+    padding: 5em 0 1em;
+}
+
+header h3{
+    font-size: 2em;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(16, 16, 16) 3%, rgb(4, 9, 71) 38%, rgb(0, 65, 112) 68%, rgb(79, 0, 28) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgba(0, 38, 255, 0.25);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 4em 0;
+}
+
+.btnabsen{ 
+    padding: 6px 5em;
+    border: none;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.btnabsen:hover{
+    box-shadow: skyblue 0 0 12px;
+    background-color: skyblue;
+    transition: .5s;
+}
+
+.btnlist{
+    padding: 6px 3.4em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 10px;
+}
+
+.btnlist:hover{
+    box-shadow: skyblue 0 0 12px;
+    background-color: skyblue;
+    transition: .5s;
+}
+
+nav a {
+    color: #121212;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
